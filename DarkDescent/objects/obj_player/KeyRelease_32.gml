@@ -6,6 +6,6 @@ jump_length = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 55A95F25
-/// @DnDArgument : "var" "fall_speed"
-fall_speed = 0;
+/// @DnDHash : 3C3A41B7
+/// @DnDArgument : "var" "jump_accel"
+jump_accel = 0;
