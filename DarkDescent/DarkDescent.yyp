@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"spr_collision_block","path":"sprites/spr_collision_block/spr_collision_block.yy",},"order":1,},
+    {"id":{"name":"obj_collision_block","path":"objects/obj_collision_block/obj_collision_block.yy",},"order":1,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_player_temp","path":"sprites/obj_player_temp/obj_player_temp.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
