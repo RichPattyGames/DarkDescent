@@ -36,6 +36,8 @@
     {"folderPath":"folders/Rooms/Kiernan_rm.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_rm","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Kiernan_obj.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_obj","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Kiernan_spr.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_spr","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Brandon_obj.yy","order":2,"resourceVersion":"1.0","name":"Brandon_obj","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Brandon_spr.yy","order":2,"resourceVersion":"1.0","name":"Brandon_spr","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
