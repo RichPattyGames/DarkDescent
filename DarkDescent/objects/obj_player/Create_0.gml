@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 64C9C1C8
-/// @DnDArgument : "code" "$(13_10)//~~~~~~~~~~~~~ Movement related variables ~~~~~~~~~~~~~$(13_10)$(13_10)//player's speed in pixels$(13_10)walk_speed = 6;$(13_10)run_speed = 12;$(13_10)$(13_10)//player's current speed$(13_10)player_speed = walk_speed;$(13_10)$(13_10)//how long the player can jump for$(13_10)jump_length_max = room_speed/4;$(13_10)$(13_10)//current player jump duration$(13_10)jump_length = 0;$(13_10)$(13_10)//players jump height in pixels$(13_10)jump_strength = 12;$(13_10)$(13_10)$(13_10)$(13_10)//~~~~~~~~~~~~~ Gravity related variables ~~~~~~~~~~~~~$(13_10)Earth_Gravity = true;$(13_10)fall_speed = 13;"
+/// @DnDArgument : "code" "$(13_10)//~~~~~~~~~~~~~ Movement related variables ~~~~~~~~~~~~~$(13_10)$(13_10)//player's speed in pixels$(13_10)walk_speed = 6;$(13_10)run_speed = 12;$(13_10)$(13_10)//player's current speed$(13_10)player_speed = walk_speed;$(13_10)$(13_10)//how long the player can jump for$(13_10)jump_length_max = room_speed/4;$(13_10)$(13_10)//current player jump duration$(13_10)jump_length = 0;$(13_10)$(13_10)//players jump height in pixels$(13_10)jump_strength = 12;$(13_10)$(13_10)//since gravity affects jump strength,$(13_10)//this is the total of jump_strenght and gravity (inside of jump_down event)$(13_10)jump_accel = 0;$(13_10)$(13_10)$(13_10)$(13_10)//~~~~~~~~~~~~~ Gravity related variables ~~~~~~~~~~~~~$(13_10)$(13_10)//boolean to check if player is using earth gravity$(13_10)Earth_Gravity = true;$(13_10)$(13_10)//a constant variable that is max gravity speed on player$(13_10)Earth_Gravity_Strength = 10;$(13_10)$(13_10)//player's current falling speed (edited in space_up key and step event, so far)$(13_10)fall_speed = 0;"
 
 //~~~~~~~~~~~~~ Movement related variables ~~~~~~~~~~~~~
 
@@ -21,8 +21,19 @@ jump_length = 0;
 //players jump height in pixels
 jump_strength = 12;
 
+//since gravity affects jump strength,
+//this is the total of jump_strenght and gravity (inside of jump_down event)
+jump_accel = 0;
+
 
 
 //~~~~~~~~~~~~~ Gravity related variables ~~~~~~~~~~~~~
+
+//boolean to check if player is using earth gravity
 Earth_Gravity = true;
-fall_speed = 13;
+
+//a constant variable that is max gravity speed on player
+Earth_Gravity_Strength = 10;
+
+//player's current falling speed (edited in space_up key and step event, so far)
+fall_speed = 0;
