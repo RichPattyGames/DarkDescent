@@ -1,5 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"sewer_ts","path":"tilesets/sewer_ts/sewer_ts.yy",},"order":0,},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":2,},
+    {"id":{"name":"tileset_test_rm","path":"rooms/tileset_test_rm/tileset_test_rm.yy",},"order":0,},
+    {"id":{"name":"tileSetTest2_spr","path":"sprites/tileSetTest2_spr/tileSetTest2_spr.yy",},"order":1,},
+    {"id":{"name":"sewerTileSet_spr","path":"sprites/sewerTileSet_spr/sewerTileSet_spr.yy",},"order":0,},
+    {"id":{"name":"tileSetTest3_spr","path":"sprites/tileSetTest3_spr/tileSetTest3_spr.yy",},"order":2,},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -15,6 +22,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"tileset_test_rm","path":"rooms/tileset_test_rm/tileset_test_rm.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -34,6 +42,7 @@
     {"folderPath":"folders/Rooms/Kiernan_rm.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_rm","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Kiernan_obj.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_obj","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Kiernan_spr.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_spr","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Tile Sets/Kiernan_tileset.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_tileset","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
