@@ -537,8 +537,8 @@
     ],
   },
   "parent": {
-    "name": "Kiernan_tileset",
-    "path": "folders/Tile Sets/Kiernan_tileset.yy",
+    "name": "Kiernan_ts",
+    "path": "folders/Tile Sets/Kiernan_ts.yy",
   },
   "resourceVersion": "1.0",
   "name": "TileSet3",
