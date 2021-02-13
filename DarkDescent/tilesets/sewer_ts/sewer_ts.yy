@@ -1,9 +1,5 @@
 {
-  "name": "sewer_ts",
-  "spriteId": {
-    "name": "sewerTileSet_spr",
-    "path": "sprites/sewerTileSet_spr/sewerTileSet_spr.yy",
-  },
+  "spriteId": null,
   "tileWidth": 16,
   "tileHeight": 16,
   "tilexoff": 0,
@@ -774,6 +770,7 @@
     "path": "folders/Tile Sets/Kiernan_tileset.yy",
   },
   "resourceVersion": "1.0",
+  "name": "sewer_ts",
   "tags": [],
   "resourceType": "GMTileSet",
 }

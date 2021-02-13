@@ -1,5 +1,4 @@
 {
-  "name": "TileSet3",
   "spriteId": {
     "name": "tileSetTest3_spr",
     "path": "sprites/tileSetTest3_spr/tileSetTest3_spr.yy",
@@ -542,6 +541,7 @@
     "path": "folders/Tile Sets/Kiernan_tileset.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet3",
   "tags": [],
   "resourceType": "GMTileSet",
 }

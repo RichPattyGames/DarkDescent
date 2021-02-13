@@ -1,9 +1,5 @@
 {
-  "name": "TileSet2",
-  "spriteId": {
-    "name": "tileSetTest2_spr",
-    "path": "sprites/tileSetTest2_spr/tileSetTest2_spr.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,
@@ -600,6 +596,7 @@
     "path": "folders/Tile Sets/Kiernan_tileset.yy",
   },
   "resourceVersion": "1.0",
+  "name": "TileSet2",
   "tags": [],
   "resourceType": "GMTileSet",
 }
