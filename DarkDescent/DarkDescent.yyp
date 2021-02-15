@@ -13,13 +13,17 @@
     {"id":{"name":"obj_player_temp","path":"sprites/obj_player_temp/obj_player_temp.yy",},"order":0,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":0,},
     {"id":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"order":3,},
+    {"id":{"name":"spr_abstract","path":"sprites/spr_abstract/spr_abstract.yy",},"order":3,},
     {"id":{"name":"obj_goToMainRoom","path":"objects/obj_goToMainRoom/obj_goToMainRoom.yy",},"order":3,},
     {"id":{"name":"flashLight_spr","path":"sprites/flashLight_spr/flashLight_spr.yy",},"order":4,},
+    {"id":{"name":"obj_lightsource","path":"objects/obj_lightsource/obj_lightsource.yy",},"order":1,},
     {"id":{"name":"path_rat1","path":"paths/path_rat1/path_rat1.yy",},"order":0,},
     {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":3,},
     {"id":{"name":"AnimationCurve1","path":"animcurves/AnimationCurve1/AnimationCurve1.yy",},"order":0,},
+    {"id":{"name":"obj_surface_light","path":"objects/obj_surface_light/obj_surface_light.yy",},"order":0,},
     {"id":{"name":"tileset_test_rm","path":"rooms/tileset_test_rm/tileset_test_rm.yy",},"order":0,},
     {"id":{"name":"tileSetTest3_spr","path":"sprites/tileSetTest3_spr/tileSetTest3_spr.yy",},"order":2,},
+    {"id":{"name":"rm_brandon_test","path":"rooms/rm_brandon_test/rm_brandon_test.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -36,8 +40,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_roomStart","path":"rooms/rm_roomStart/rm_roomStart.yy",},},
+    {"roomId":{"name":"rm_brandon_test","path":"rooms/rm_brandon_test/rm_brandon_test.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"tileset_test_rm","path":"rooms/tileset_test_rm/tileset_test_rm.yy",},},
   ],
   "Folders": [
@@ -62,6 +67,7 @@
     {"folderPath":"folders/Sprites/Brandon_spr.yy","order":2,"resourceVersion":"1.0","name":"Brandon_spr","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/Brandon_rm.yy","order":2,"resourceVersion":"1.0","name":"Brandon_rm","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets/Kiernan_ts.yy","order":1,"resourceVersion":"1.0","name":"Kiernan_ts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Brandon_obj/lighting test.yy","order":4,"resourceVersion":"1.0","name":"lighting test","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
