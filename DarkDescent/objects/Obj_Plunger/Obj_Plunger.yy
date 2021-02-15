@@ -17,9 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -27,7 +25,7 @@
     "path": "folders/Objects/Mike_obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Score",
+  "name": "Obj_Plunger",
   "tags": [],
   "resourceType": "GMObject",
 }
