@@ -1,8 +1,18 @@
-/// @DnDAction : YoYo Games.Paths.Start_Path
-/// @DnDVersion : 1.1
-/// @DnDHash : 688CDF83
-/// @DnDArgument : "path" "path_rat1"
-/// @DnDArgument : "speed" "3"
-/// @DnDArgument : "atend" "path_action_continue"
-/// @DnDSaveInfo : "path" "path_rat1"
-path_start(path_rat1, 3, path_action_continue, false);
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1FB93B04
+/// @DnDArgument : "var" "TargetX"
+TargetX = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 61EF379B
+/// @DnDArgument : "var" "TargetY"
+TargetY = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5BE73D1D
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "spd"
+spd = 3;
