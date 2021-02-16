@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "walking_noise.mp3",
-  "duration": 12.5437756,
+  "duration": 11.62949,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
