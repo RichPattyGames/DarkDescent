@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "exit_spr",
-    "path": "sprites/exit_spr/exit_spr.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_Exit_Game","path":"objects/obj_Exit_Game/obj_Exit_Game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +27,7 @@
     "path": "folders/Objects/Kiernan_obj/menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Exit_Game",
+  "name": "obj_Controller",
   "tags": [],
   "resourceType": "GMObject",
 }

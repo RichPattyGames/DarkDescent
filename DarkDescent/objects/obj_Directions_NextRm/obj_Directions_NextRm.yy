@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_HowToPlay",
-    "path": "sprites/spr_HowToPlay/spr_HowToPlay.yy",
+    "name": "howToPlay_spr",
+    "path": "sprites/howToPlay_spr/howToPlay_spr.yy",
   },
   "solid": false,
   "visible": true,
