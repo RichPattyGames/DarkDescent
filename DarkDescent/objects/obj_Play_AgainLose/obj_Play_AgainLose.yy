@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_Exit",
-    "path": "sprites/spr_Exit/spr_Exit.yy",
+    "name": "spr_LosePlayAgain",
+    "path": "sprites/spr_LosePlayAgain/spr_LosePlayAgain.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_Exit_Game","path":"objects/obj_Exit_Game/obj_Exit_Game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_Play_AgainLose","path":"objects/obj_Play_AgainLose/obj_Play_AgainLose.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects/Kiernan_obj/menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Exit_Game",
+  "name": "obj_Play_AgainLose",
   "tags": [],
   "resourceType": "GMObject",
 }
