@@ -32,6 +32,7 @@
     {"id":{"name":"obj_Music","path":"objects/obj_Music/obj_Music.yy",},"order":3,},
     {"id":{"name":"obj_Exit_Game","path":"objects/obj_Exit_Game/obj_Exit_Game.yy",},"order":1,},
     {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":1,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"spr_LosePlayAgain","path":"sprites/spr_LosePlayAgain/spr_LosePlayAgain.yy",},"order":4,},
     {"id":{"name":"spr_WinExit","path":"sprites/spr_WinExit/spr_WinExit.yy",},"order":3,},
     {"id":{"name":"obj_Directions_PrevRm","path":"objects/obj_Directions_PrevRm/obj_Directions_PrevRm.yy",},"order":3,},
