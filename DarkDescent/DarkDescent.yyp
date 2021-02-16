@@ -23,6 +23,7 @@
     {"id":{"name":"flashLight_spr","path":"sprites/flashLight_spr/flashLight_spr.yy",},"order":4,},
     {"id":{"name":"playerRight_spr","path":"sprites/playerRight_spr/playerRight_spr.yy",},"order":10,},
     {"id":{"name":"obj_lightSource","path":"objects/obj_lightSource/obj_lightSource.yy",},"order":3,},
+
     {"id":{"name":"path_rat1","path":"paths/path_rat1/path_rat1.yy",},"order":0,},
     {"id":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"order":4,},
     {"id":{"name":"obj_Exit_Game","path":"objects/obj_Exit_Game/obj_Exit_Game.yy",},"order":1,},
