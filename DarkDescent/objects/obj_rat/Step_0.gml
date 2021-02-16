@@ -43,13 +43,12 @@ if(distance_to_object(obj_player) <= 150)
 	/// @DnDArgument : "speed" "spd"
 	speed = spd;
 
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 4E0D9343
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Random
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 4D6D7296
 	/// @DnDParent : 2B5EEDAB
-	/// @DnDArgument : "x" "obj_player.x"
-	/// @DnDArgument : "y" "obj_player.y"
-	direction = point_direction(x, y, obj_player.x, obj_player.y);
+	/// @DnDArgument : "direction" "135,90,45,180,0,225,270,315"
+	direction = choose(135,90,45,180,0,225,270,315);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
