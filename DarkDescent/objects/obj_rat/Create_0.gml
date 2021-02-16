@@ -3,6 +3,6 @@
 /// @DnDHash : 688CDF83
 /// @DnDArgument : "path" "path_rat1"
 /// @DnDArgument : "speed" "3"
-/// @DnDArgument : "atend" "path_action_reverse"
+/// @DnDArgument : "atend" "path_action_continue"
 /// @DnDSaveInfo : "path" "path_rat1"
-path_start(path_rat1, 3, path_action_reverse, false);
+path_start(path_rat1, 3, path_action_continue, false);
