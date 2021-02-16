@@ -17,7 +17,6 @@
     {"id":{"name":"flashLight_spr","path":"sprites/flashLight_spr/flashLight_spr.yy",},"order":4,},
     {"id":{"name":"playerRight_spr","path":"sprites/playerRight_spr/playerRight_spr.yy",},"order":10,},
     {"id":{"name":"obj_lightSource","path":"objects/obj_lightSource/obj_lightSource.yy",},"order":3,},
-    {"id":{"name":"path_rat1","path":"paths/path_rat1/path_rat1.yy",},"order":0,},
     {"id":{"name":"wall_spr","path":"sprites/wall_spr/wall_spr.yy",},"order":3,},
     {"id":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"order":0,},
     {"id":{"name":"playerUp_spr","path":"sprites/playerUp_spr/playerUp_spr.yy",},"order":7,},
