@@ -82,7 +82,7 @@
     "path": "folders/Rooms/Kiernan_rm.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tileset_test_rm",
+  "name": "rm_Tileset_Test",
   "tags": [],
   "resourceType": "GMRoom",
 }
