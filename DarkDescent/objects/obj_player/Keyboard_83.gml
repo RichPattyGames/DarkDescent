@@ -27,4 +27,11 @@ if (l6388FA55_0)
 	/// @DnDParent : 6388FA55
 	/// @DnDArgument : "friction" "1"
 	friction = 1;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 25674333
+	/// @DnDParent : 6388FA55
+	/// @DnDArgument : "code" "facing = "down";"
+	facing = "down";
 }

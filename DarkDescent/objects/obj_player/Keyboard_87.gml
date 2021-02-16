@@ -27,4 +27,11 @@ if (l31F9BB42_0)
 	/// @DnDParent : 31F9BB42
 	/// @DnDArgument : "friction" "1"
 	friction = 1;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 7C741936
+	/// @DnDParent : 31F9BB42
+	/// @DnDArgument : "code" "facing = "up";"
+	facing = "up";
 }
