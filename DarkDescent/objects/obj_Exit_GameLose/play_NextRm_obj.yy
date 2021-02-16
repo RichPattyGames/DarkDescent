@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_Exit",
-    "path": "sprites/spr_Exit/spr_Exit.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":true,"eventNum":7,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_Exit_Game","path":"objects/obj_Exit_Game/obj_Exit_Game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "menu",
-    "path": "folders/Objects/Kiernan_obj/menu.yy",
+    "name": "Kiernan_obj",
+    "path": "folders/Objects/Kiernan_obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Exit_Game",
+  "name": "play_NextRm_obj",
   "tags": [],
   "resourceType": "GMObject",
 }
