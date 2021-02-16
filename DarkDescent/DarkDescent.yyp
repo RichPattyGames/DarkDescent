@@ -55,10 +55,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},},
     {"roomId":{"name":"rm_Brandon_test","path":"rooms/rm_Brandon_test/rm_Brandon_test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_Tileset_Test","path":"rooms/rm_Tileset_Test/rm_Tileset_Test.yy",},},
-    {"roomId":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},},
     {"roomId":{"name":"rm_Directions","path":"rooms/rm_Directions/rm_Directions.yy",},},
   ],
   "Folders": [
