@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"rm_Brandon_test","path":"rooms/rm_Brandon_test/rm_Brandon_test.yy",},"order":0,},
     {"id":{"name":"spr_collision_block","path":"sprites/spr_collision_block/spr_collision_block.yy",},"order":1,},
-    {"id":{"name":"playerLeft_spr","path":"sprites/playerLeft_spr/playerLeft_spr.yy",},"order":9,},
     {"id":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},"order":0,},
     {"id":{"name":"howToPlay_spr","path":"sprites/howToPlay_spr/howToPlay_spr.yy",},"order":1,},
     {"id":{"name":"menuRoomm_spr","path":"sprites/menuRoomm_spr/menuRoomm_spr.yy",},"order":4,},
