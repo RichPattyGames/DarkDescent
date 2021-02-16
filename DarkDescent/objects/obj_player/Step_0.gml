@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4363FFE0
-/// @DnDArgument : "code" "$(13_10)if(distance_to_object(obj_player) <= 0)$(13_10){$(13_10)	playerRecoil = 20;$(13_10)}$(13_10)$(13_10)if(playerRecoil != -1)$(13_10){$(13_10)	playerRecoil = -1;$(13_10)	if (facing = "right")$(13_10)	{$(13_10)	direction = image_angle - 180;$(13_10)	}$(13_10)	else if(facing = "left")$(13_10)	{$(13_10)		direction = image_angle + 180;$(13_10)	}$(13_10)	$(13_10)		$(13_10)	speed = recoilSpeed;$(13_10)	playerStop = 1;$(13_10)}$(13_10)$(13_10)if(playerRecoil = -1 && playerStop = 1)$(13_10){$(13_10)	speed = 0;$(13_10)	playerStop = -1;$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)/*$(13_10)//gravity accelerating on player$(13_10)if(fall_speed < Earth_Gravity_Strength)$(13_10){$(13_10)	fall_speed += 0;	$(13_10)}$(13_10)$(13_10)$(13_10)//gravity on player$(13_10)if (Earth_Gravity)$(13_10){$(13_10)    // If there is not a wall keep falling$(13_10)    if (!place_meeting(x , y + fall_speed, obj_collision_block))$(13_10)    {$(13_10)        // Move walk_speed$(13_10)        y += fall_speed;$(13_10)		$(13_10)		//if player is in the air don't jump$(13_10)		jump_strength = 0;$(13_10)		can_jump = false;$(13_10)		$(13_10)    }$(13_10)    // Otherwise, there is a wall $(13_10)    else$(13_10)    {$(13_10)		//set gravity to zero $(13_10)		fall_speed = 0;$(13_10)		$(13_10)		//if the player is touching the ground$(13_10)		//they can jump again$(13_10)		jump_strength = jump_strenght_const;$(13_10)		can_jump = true;$(13_10)		$(13_10)		$(13_10)        // So move 1 pixel up until you are next to the wall$(13_10)        while (!place_meeting(x, y + 1, obj_collision_block))$(13_10)        {$(13_10)            y++;$(13_10)        }$(13_10)    }$(13_10)}$(13_10)*/$(13_10)"
+/// @DnDArgument : "code" "$(13_10)if(distance_to_object(obj_player) <= 0)$(13_10){$(13_10)	playerRecoil = 20;$(13_10)}$(13_10)$(13_10)if(playerRecoil != -1)$(13_10){$(13_10)	playerRecoil = -1;$(13_10)	if (facing = "right")$(13_10)	{$(13_10)	direction = image_angle - 180;$(13_10)	}$(13_10)	else if(facing = "left")$(13_10)	{$(13_10)		direction = image_angle + 180;$(13_10)	}$(13_10)	$(13_10)		$(13_10)	speed = recoilSpeed;$(13_10)	playerStop = 1;$(13_10)}$(13_10)$(13_10)if(playerRecoil = -1 && playerStop = 1)$(13_10){$(13_10)	speed = 0;$(13_10)	playerStop = -1;$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)// weapon attack$(13_10)if (keyboard_check_pressed(vk_space))$(13_10){$(13_10)	if (is_swinging == false)$(13_10)	{$(13_10)		is_swinging = true;$(13_10)		weapon.image_index = 0;$(13_10)		weapon.sprite_index = Spr_PlungerAnimate;$(13_10)		$(13_10)		//hitbox$(13_10)	}$(13_10)}$(13_10)// swing weapon$(13_10)if (is_swinging)$(13_10){$(13_10)	if (round(weapon.image_index) + 2 >= weapon.image_number)$(13_10)	{$(13_10)		weapon.sprite_index = Spr_Plunger;$(13_10)		is_swinging = false;$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)/*$(13_10)//gravity accelerating on player$(13_10)if(fall_speed < Earth_Gravity_Strength)$(13_10){$(13_10)	fall_speed += 0;	$(13_10)}$(13_10)$(13_10)$(13_10)//gravity on player$(13_10)if (Earth_Gravity)$(13_10){$(13_10)    // If there is not a wall keep falling$(13_10)    if (!place_meeting(x , y + fall_speed, obj_collision_block))$(13_10)    {$(13_10)        // Move walk_speed$(13_10)        y += fall_speed;$(13_10)		$(13_10)		//if player is in the air don't jump$(13_10)		jump_strength = 0;$(13_10)		can_jump = false;$(13_10)		$(13_10)    }$(13_10)    // Otherwise, there is a wall $(13_10)    else$(13_10)    {$(13_10)		//set gravity to zero $(13_10)		fall_speed = 0;$(13_10)		$(13_10)		//if the player is touching the ground$(13_10)		//they can jump again$(13_10)		jump_strength = jump_strenght_const;$(13_10)		can_jump = true;$(13_10)		$(13_10)		$(13_10)        // So move 1 pixel up until you are next to the wall$(13_10)        while (!place_meeting(x, y + 1, obj_collision_block))$(13_10)        {$(13_10)            y++;$(13_10)        }$(13_10)    }$(13_10)}$(13_10)*/$(13_10)"
 
 if(distance_to_object(obj_player) <= 0)
 {
@@ -29,6 +29,30 @@ if(playerRecoil = -1 && playerStop = 1)
 {
 	speed = 0;
 	playerStop = -1;
+}
+
+
+
+// weapon attack
+if (keyboard_check_pressed(vk_space))
+{
+	if (is_swinging == false)
+	{
+		is_swinging = true;
+		weapon.image_index = 0;
+		weapon.sprite_index = Spr_PlungerAnimate;
+		
+		//hitbox
+	}
+}
+// swing weapon
+if (is_swinging)
+{
+	if (round(weapon.image_index) + 2 >= weapon.image_number)
+	{
+		weapon.sprite_index = Spr_Plunger;
+		is_swinging = false;
+	}
 }
 
 
