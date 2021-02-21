@@ -11,6 +11,7 @@
     {"id":{"name":"playerLeft_spr","path":"sprites/playerLeft_spr/playerLeft_spr.yy",},"order":1,},
     {"id":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},"order":0,},
     {"id":{"name":"spr_HowToPlay","path":"sprites/spr_HowToPlay/spr_HowToPlay.yy",},"order":1,},
+    {"id":{"name":"rm_Titleset_playRoom","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},"order":1,},
     {"id":{"name":"menuRoomm_spr","path":"sprites/menuRoomm_spr/menuRoomm_spr.yy",},"order":4,},
     {"id":{"name":"obj_collision_block","path":"objects/obj_collision_block/obj_collision_block.yy",},"order":1,},
     {"id":{"name":"previous_spr","path":"sprites/previous_spr/previous_spr.yy",},"order":2,},
@@ -80,6 +81,7 @@
     {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
     {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},
     {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
+    {"roomId":{"name":"rm_Titleset_playRoom","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
