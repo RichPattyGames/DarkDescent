@@ -4,7 +4,7 @@
     "path": "sprites/spr_collision_block/spr_collision_block.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

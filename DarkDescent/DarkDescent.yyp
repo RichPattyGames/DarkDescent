@@ -88,13 +88,13 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Titleset_playRoom","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},},
     {"roomId":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"rm_Tileset_Test","path":"rooms/rm_Tileset_Test/rm_Tileset_Test.yy",},},
     {"roomId":{"name":"rm_Directions","path":"rooms/rm_Directions/rm_Directions.yy",},},
     {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
     {"roomId":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"roomId":{"name":"rm_Brandon_test","path":"rooms/rm_Brandon_test/rm_Brandon_test.yy",},},
+    {"roomId":{"name":"rm_Tileset_Test","path":"rooms/rm_Tileset_Test/rm_Tileset_Test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
