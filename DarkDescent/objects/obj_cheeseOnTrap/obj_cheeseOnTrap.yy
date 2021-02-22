@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_cheeseOnTrap_armed",
+    "path": "sprites/spr_cheeseOnTrap_armed/spr_cheeseOnTrap_armed.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,12 +22,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_cheeseOnTrap","path":"objects/obj_cheeseOnTrap/obj_cheeseOnTrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"parent":{"name":"obj_cheeseOnTrap","path":"objects/obj_cheeseOnTrap/obj_cheeseOnTrap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Brandon_spr",
-    "path": "folders/Sprites/Brandon_spr.yy",
+    "name": "Brandon_obj",
+    "path": "folders/Objects/Brandon_obj.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cheeseOnTrap",
