@@ -9,6 +9,7 @@ image_index = 0;
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 77DE05A9
+/// @DnDComment : in the "ded_rat" layer, since its$(13_10)spawns under this trap. So place$(13_10)over them.
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_rat_ded"
