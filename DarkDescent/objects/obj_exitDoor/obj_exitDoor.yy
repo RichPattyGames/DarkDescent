@@ -1,9 +1,12 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_exitDoor",
+    "path": "sprites/spr_exitDoor/spr_exitDoor.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -18,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_exitDoor","path":"objects/obj_exitDoor/obj_exitDoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Mike_obj",
-    "path": "folders/Objects/Mike_obj.yy",
+    "name": "Kiernan_obj",
+    "path": "folders/Objects/Kiernan_obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Score",
+  "name": "obj_exitDoor",
   "tags": [],
   "resourceType": "GMObject",
 }
