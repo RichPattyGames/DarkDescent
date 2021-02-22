@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "obj_player_temp",
-    "path": "sprites/obj_player_temp/obj_player_temp.yy",
+    "name": "spr_player_idle",
+    "path": "sprites/spr_player_idle/spr_player_idle.yy",
   },
   "solid": true,
   "visible": true,
@@ -40,6 +40,7 @@
     {"isDnD":true,"eventNum":87,"eventType":10,"collisionObjectId":null,"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
