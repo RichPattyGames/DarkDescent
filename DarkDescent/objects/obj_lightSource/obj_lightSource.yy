@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Brandon_obj",
-    "path": "folders/Objects/Brandon_obj.yy",
+    "name": "temps",
+    "path": "folders/Objects/Brandon_obj/temps.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lightSource",
