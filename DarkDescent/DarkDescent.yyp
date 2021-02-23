@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_cheeseOnTrap_disarmed","path":"sprites/spr_cheeseOnTrap_disarmed/spr_cheeseOnTrap_disarmed.yy",},"order":6,},
-    {"id":{"name":"spr_GoToWork","path":"sprites/spr_GoToWork/spr_GoToWork.yy",},"order":4,},
+    {"id":{"name":"spr_GoToWork","path":"sprites/spr_GoToWork/spr_GoToWork.yy",},"order":3,},
     {"id":{"name":"spr_GoToSleep","path":"sprites/spr_GoToSleep/spr_GoToSleep.yy",},"order":2,},
     {"id":{"name":"rm_Brandon_test","path":"rooms/rm_Brandon_test/rm_Brandon_test.yy",},"order":0,},
     {"id":{"name":"spr_collision_block","path":"sprites/spr_collision_block/spr_collision_block.yy",},"order":1,},
@@ -30,6 +30,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"playerDown_spr","path":"sprites/playerDown_spr/playerDown_spr.yy",},"order":0,},
     {"id":{"name":"Spr_Plunger","path":"sprites/Spr_Plunger/Spr_Plunger.yy",},"order":0,},
+    {"id":{"name":"spr_player_walkingHome","path":"sprites/spr_player_walkingHome/spr_player_walkingHome.yy",},"order":5,},
     {"id":{"name":"Spr_SuperFlashlight","path":"sprites/Spr_SuperFlashlight/Spr_SuperFlashlight.yy",},"order":4,},
     {"id":{"name":"Spr_Net","path":"sprites/Spr_Net/Spr_Net.yy",},"order":3,},
     {"id":{"name":"spr_directions","path":"sprites/spr_directions/spr_directions.yy",},"order":5,},
@@ -37,6 +38,8 @@
     {"id":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"order":0,},
     {"id":{"name":"obj_player_temp","path":"sprites/obj_player_temp/obj_player_temp.yy",},"order":0,},
     {"id":{"name":"spr_exitDoor","path":"sprites/spr_exitDoor/spr_exitDoor.yy",},"order":7,},
+    {"id":{"name":"spr_player_Home","path":"sprites/spr_player_Home/spr_player_Home.yy",},"order":4,},
+    {"id":{"name":"obj_playerHome","path":"objects/obj_playerHome/obj_playerHome.yy",},"order":6,},
     {"id":{"name":"spr_LoseExit","path":"sprites/spr_LoseExit/spr_LoseExit.yy",},"order":2,},
     {"id":{"name":"spr_Win","path":"sprites/spr_Win/spr_Win.yy",},"order":1,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":0,},
@@ -75,6 +78,7 @@
     {"id":{"name":"rm_Tileset_Test","path":"rooms/rm_Tileset_Test/rm_Tileset_Test.yy",},"order":0,},
     {"id":{"name":"walking_noise","path":"sounds/walking_noise/walking_noise.yy",},"order":0,},
     {"id":{"name":"ItemShopTxt","path":"sprites/ItemShopTxt/ItemShopTxt.yy",},"order":6,},
+    {"id":{"name":"obj_HomeToWorkFromShop","path":"objects/obj_HomeToWorkFromShop/obj_HomeToWorkFromShop.yy",},"order":2,},
     {"id":{"name":"spr_rat_ded","path":"sprites/spr_rat_ded/spr_rat_ded.yy",},"order":5,},
     {"id":{"name":"obj_HomeToShop","path":"objects/obj_HomeToShop/obj_HomeToShop.yy",},"order":1,},
     {"id":{"name":"rm_Lose","path":"rooms/rm_Lose/rm_Lose.yy",},"order":1,},
@@ -138,7 +142,7 @@
     {"folderPath":"folders/Rooms/Kiernan_rm/Win_Lose.yy","order":2,"resourceVersion":"1.0","name":"Win_Lose","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/Mike_rm.yy","order":3,"resourceVersion":"1.0","name":"Mike_rm","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Brandon_obj/temps.yy","order":5,"resourceVersion":"1.0","name":"temps","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/Kiernan_spr/Home.yy","order":9,"resourceVersion":"1.0","name":"Home","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Kiernan_spr/Home.yy","order":8,"resourceVersion":"1.0","name":"Home","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Kiernan_obj/Home.yy","order":5,"resourceVersion":"1.0","name":"Home","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
