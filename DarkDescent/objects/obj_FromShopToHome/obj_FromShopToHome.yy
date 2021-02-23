@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_GoToWork",
-    "path": "sprites/spr_GoToWork/spr_GoToWork.yy",
+    "name": "spr_GoToHome",
+    "path": "sprites/spr_GoToHome/spr_GoToHome.yy",
   },
   "solid": false,
   "visible": true,
