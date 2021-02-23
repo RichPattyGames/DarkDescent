@@ -41,7 +41,7 @@
     {"id":{"name":"obj_player_temp","path":"sprites/obj_player_temp/obj_player_temp.yy",},"order":0,},
     {"id":{"name":"spr_exitDoor","path":"sprites/spr_exitDoor/spr_exitDoor.yy",},"order":7,},
     {"id":{"name":"spr_player_Home","path":"sprites/spr_player_Home/spr_player_Home.yy",},"order":4,},
-    {"id":{"name":"obj_playerHome","path":"objects/obj_playerHome/obj_playerHome.yy",},"order":6,},
+    {"id":{"name":"obj_playerHome","path":"objects/obj_playerHome/obj_playerHome.yy",},"order":4,},
     {"id":{"name":"spr_LoseExit","path":"sprites/spr_LoseExit/spr_LoseExit.yy",},"order":2,},
     {"id":{"name":"spr_Win","path":"sprites/spr_Win/spr_Win.yy",},"order":1,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":0,},
