@@ -15,6 +15,8 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":640.0,"resourceVersion":"1.0","name":"inst_64FA3407","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SuperFlashLight","path":"objects/Obj_SuperFlashLight/Obj_SuperFlashLight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":864.0,"resourceVersion":"1.0","name":"inst_18CFF5AE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"falshLight_obj","path":"objects/falshLight_obj/falshLight_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":896.0,"resourceVersion":"1.0","name":"inst_5BEB42E4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-0.3896677,"scaleX":3.5,"scaleY":0.8,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3.242937E-07,"y":543.999939,"resourceVersion":"1.0","name":"inst_6532762B","tags":[],"resourceType":"GMRInstance",},
@@ -71,6 +73,8 @@
     {"name":"inst_64FA3407","path":"rooms/Boss_rm/Boss_rm.yy",},
     {"name":"inst_4ED6240F","path":"rooms/Boss_rm/Boss_rm.yy",},
     {"name":"inst_65930A4","path":"rooms/Boss_rm/Boss_rm.yy",},
+    {"name":"inst_18CFF5AE","path":"rooms/Boss_rm/Boss_rm.yy",},
+    {"name":"inst_5BEB42E4","path":"rooms/Boss_rm/Boss_rm.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
