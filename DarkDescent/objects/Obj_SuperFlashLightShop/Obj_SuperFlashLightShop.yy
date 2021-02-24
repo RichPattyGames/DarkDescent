@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_SuperFlashlight",
+    "path": "sprites/Spr_SuperFlashlight/Spr_SuperFlashlight.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_ShopController","path":"objects/Obj_ShopController/Obj_ShopController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"Obj_SuperFlashLightShop","path":"objects/Obj_SuperFlashLightShop/Obj_SuperFlashLightShop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -27,7 +30,7 @@
     "path": "folders/Objects/Mike_obj.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_ShopController",
+  "name": "Obj_SuperFlashLightShop",
   "tags": [],
   "resourceType": "GMObject",
 }

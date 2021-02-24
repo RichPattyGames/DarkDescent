@@ -28,6 +28,7 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_walls","path":"objects/obj_walls/obj_walls.yy",},"parent":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_cheeseOnTrap","path":"objects/obj_cheeseOnTrap/obj_cheeseOnTrap.yy",},"parent":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"falshLight_obj","path":"objects/falshLight_obj/falshLight_obj.yy",},"parent":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_SuperPlunger","path":"objects/Obj_SuperPlunger/Obj_SuperPlunger.yy",},"parent":{"name":"obj_rat","path":"objects/obj_rat/obj_rat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
