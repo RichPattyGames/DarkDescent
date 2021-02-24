@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Kiernan_obj",
-    "path": "folders/Objects/Kiernan_obj.yy",
+    "name": "PlayerStuff",
+    "path": "folders/Objects/Kiernan_obj/PlayerStuff.yy",
   },
   "resourceVersion": "1.0",
   "name": "falshLight_obj",
