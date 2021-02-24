@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 056CA0CF
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "var" "playerRecoilToxic"
+playerRecoilToxic = -1;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 0501AAD6
