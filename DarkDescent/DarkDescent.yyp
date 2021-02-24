@@ -66,6 +66,7 @@
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"spr_LosePlayAgain","path":"sprites/spr_LosePlayAgain/spr_LosePlayAgain.yy",},"order":4,},
     {"id":{"name":"snd_acidDrip","path":"sounds/snd_acidDrip/snd_acidDrip.yy",},"order":2,},
+    {"id":{"name":"snd_ouch","path":"sounds/snd_ouch/snd_ouch.yy",},"order":3,},
     {"id":{"name":"spr_WinExit","path":"sprites/spr_WinExit/spr_WinExit.yy",},"order":3,},
     {"id":{"name":"spr_ToxicDrip","path":"sprites/spr_ToxicDrip/spr_ToxicDrip.yy",},"order":9,},
     {"id":{"name":"obj_HomeToWork","path":"objects/obj_HomeToWork/obj_HomeToWork.yy",},"order":0,},
