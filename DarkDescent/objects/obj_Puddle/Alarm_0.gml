@@ -16,16 +16,13 @@ if(dripCooldown <= 0)
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 2AF75BEE
-	/// @DnDApplyTo : all
 	/// @DnDParent : 5CCFE4B9
 	/// @DnDArgument : "xpos" "obj_Puddle.x"
 	/// @DnDArgument : "ypos" "obj_Puddle.y"
 	/// @DnDArgument : "objectid" "obj_ToxicDrip"
-	/// @DnDArgument : "layer" ""Instances_Puddle""
+	/// @DnDArgument : "layer" ""Instance_acidDrop""
 	/// @DnDSaveInfo : "objectid" "obj_ToxicDrip"
-	with(all) {
-		instance_create_layer(obj_Puddle.x, obj_Puddle.y, "Instances_Puddle", obj_ToxicDrip); 
-	}
+	instance_create_layer(obj_Puddle.x, obj_Puddle.y, "Instance_acidDrop", obj_ToxicDrip);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

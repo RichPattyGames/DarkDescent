@@ -13,6 +13,6 @@ if (global.gameLives <= 0){
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 19F45F6F
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "100"
 /// @DnDArgument : "var" "playerRecoil"
-playerRecoil = 50;
+playerRecoil = 100;
