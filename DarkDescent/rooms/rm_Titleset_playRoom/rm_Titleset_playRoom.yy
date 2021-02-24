@@ -21,6 +21,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"falshLight_obj","path":"objects/falshLight_obj/falshLight_obj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":192.0,"resourceVersion":"1.0","name":"inst_2CAFEC5A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Score","path":"objects/Obj_Score/Obj_Score.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_57D7B8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_BossDoor","path":"objects/obj_BossDoor/obj_BossDoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.203125,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4131.5,"y":2057.0,"resourceVersion":"1.0","name":"inst_4451478B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SuperFlashLight","path":"objects/Obj_SuperFlashLight/Obj_SuperFlashLight.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":2400.0,"resourceVersion":"1.0","name":"inst_61EBC6D2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Puddle","path":"objects/obj_Puddle/obj_Puddle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":356.0,"y":618.0,"resourceVersion":"1.0","name":"inst_D5ADE3C","tags":[],"resourceType":"GMRInstance",},
@@ -305,6 +306,7 @@
     {"name":"inst_5BA0A18","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},
     {"name":"inst_69FDF188","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},
     {"name":"inst_2A412457","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},
+    {"name":"inst_61EBC6D2","path":"rooms/rm_Titleset_playRoom/rm_Titleset_playRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
