@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_ToxicDrip",
+    "path": "sprites/spr_ToxicDrip/spr_ToxicDrip.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,12 +20,16 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_ToxicDrip","path":"objects/obj_ToxicDrip/obj_ToxicDrip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_ToxicDrip","path":"objects/obj_ToxicDrip/obj_ToxicDrip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_ToxicDrip","path":"objects/obj_ToxicDrip/obj_ToxicDrip.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Kiernan_obj",
-    "path": "folders/Objects/Kiernan_obj.yy",
+    "name": "ToxicDrips",
+    "path": "folders/Objects/Kiernan_obj/ToxicDrips.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ToxicDrip",
